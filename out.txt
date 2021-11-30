@@ -1,0 +1,65 @@
+Começando na cidade 1:
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 1 e:
+1 -> 2 -> 3 -> 4 -> 8 -> 5 -> 9 -> 6 -> 7 -> 10 -> 1
+f = 611
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 1 e:
+1 -> 2 -> 7 -> 6 -> 9 -> 5 -> 10 -> 3 -> 8 -> 4 -> 1
+f = 551
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 1 e:
+1 -> 2 -> 7 -> 10 -> 3 -> 4 -> 8 -> 5 -> 9 -> 6 -> 1
+f = 601
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 1 e:
+1 -> 4 -> 8 -> 3 -> 5 -> 6 -> 9 -> 7 -> 10 -> 2 -> 1
+f = 632
+
+Começando na cidade 6:
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 6 e:
+6 -> 3 -> 2 -> 1 -> 4 -> 8 -> 5 -> 10 -> 7 -> 9 -> 6
+f = 605
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 6 e:
+6 -> 9 -> 5 -> 8 -> 4 -> 1 -> 2 -> 7 -> 10 -> 3 -> 6
+f = 583
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 6 e:
+6 -> 5 -> 8 -> 4 -> 3 -> 2 -> 1 -> 10 -> 7 -> 9 -> 6
+f = 638
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 6 e:
+6 -> 1 -> 8 -> 4 -> 3 -> 5 -> 10 -> 2 -> 7 -> 9 -> 6
+f = 601
+
+Começando na cidade 3:
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 3 e:
+3 -> 2 -> 7 -> 9 -> 5 -> 6 -> 10 -> 1 -> 8 -> 4 -> 3
+f = 633
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 3 e:
+3 -> 4 -> 5 -> 8 -> 1 -> 2 -> 7 -> 10 -> 6 -> 9 -> 3
+f = 680
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 3 e:
+3 -> 5 -> 8 -> 4 -> 1 -> 2 -> 10 -> 7 -> 9 -> 6 -> 3
+f = 579
+
+Escolha o estado cidade natal:
+Assim a melhor rota saindo da cidade 3 e:
+3 -> 10 -> 6 -> 7 -> 9 -> 5 -> 4 -> 8 -> 1 -> 2 -> 3
+f = 624
