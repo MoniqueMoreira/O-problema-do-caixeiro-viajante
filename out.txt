@@ -1,65 +1,275 @@
 Começando na cidade 1:
 
+-------------Começando na cidade 1, caso 1:------------------
+
 Escolha o estado cidade natal:
+1
+Primeira solucao aleatoria:
+1 -> 2 -> 10 -> 7 -> 6 -> 3 -> 9 -> 5 -> 8 -> 4 -> 1
+f = 628
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+1 -> 2 -> 10 -> 3 -> 6 -> 7 -> 9 -> 5 -> 8 -> 4 -> 1
+f = 596
+------------Premutacao 6------------
+------------Premutacao 7------------
+1 -> 2 -> 7 -> 10 -> 6 -> 3 -> 9 -> 5 -> 8 -> 4 -> 1
+f = 630
+------------Premutacao 8------------
+------------Melhorar 1------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+1 -> 2 -> 10 -> 7 -> 6 -> 3 -> 9 -> 5 -> 8 -> 4 -> 1
+f = 628
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
 Assim a melhor rota saindo da cidade 1 e:
-1 -> 2 -> 3 -> 4 -> 8 -> 5 -> 9 -> 6 -> 7 -> 10 -> 1
-f = 611
+1 -> 2 -> 10 -> 3 -> 6 -> 7 -> 9 -> 5 -> 8 -> 4 -> 1
+f = 596
+
+-------------Começando na cidade 1, caso 2:------------------
 
 Escolha o estado cidade natal:
+1
+Primeira solucao aleatoria:
+1 -> 2 -> 7 -> 10 -> 5 -> 6 -> 9 -> 3 -> 8 -> 4 -> 1
+f = 612
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
 Assim a melhor rota saindo da cidade 1 e:
-1 -> 2 -> 7 -> 6 -> 9 -> 5 -> 10 -> 3 -> 8 -> 4 -> 1
-f = 551
+1 -> 2 -> 7 -> 10 -> 5 -> 6 -> 9 -> 3 -> 8 -> 4 -> 1
+f = 612
+
+-------------Começando na cidade 1, caso 3:------------------
 
 Escolha o estado cidade natal:
+1
+Primeira solucao aleatoria:
+1 -> 8 -> 4 -> 5 -> 9 -> 7 -> 6 -> 10 -> 3 -> 2 -> 1
+f = 659
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+1 -> 8 -> 4 -> 5 -> 9 -> 3 -> 6 -> 10 -> 7 -> 2 -> 1
+f = 688
+------------Premutacao 6------------
+------------Premutacao 7------------
+1 -> 8 -> 4 -> 5 -> 9 -> 7 -> 6 -> 10 -> 2 -> 3 -> 1
+f = 651
+------------Premutacao 8------------
+1 -> 8 -> 4 -> 5 -> 9 -> 7 -> 6 -> 3 -> 10 -> 2 -> 1
+f = 654
+------------Melhorar 1------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+1 -> 8 -> 4 -> 5 -> 9 -> 3 -> 6 -> 10 -> 2 -> 7 -> 1
+f = 671
+------------Premutacao 6------------
+------------Premutacao 7------------
+1 -> 8 -> 4 -> 5 -> 9 -> 7 -> 6 -> 10 -> 3 -> 2 -> 1
+f = 659
+------------Premutacao 8------------
+1 -> 8 -> 4 -> 5 -> 9 -> 7 -> 6 -> 3 -> 2 -> 10 -> 1
+f = 671
 Assim a melhor rota saindo da cidade 1 e:
-1 -> 2 -> 7 -> 10 -> 3 -> 4 -> 8 -> 5 -> 9 -> 6 -> 1
-f = 601
-
-Escolha o estado cidade natal:
-Assim a melhor rota saindo da cidade 1 e:
-1 -> 4 -> 8 -> 3 -> 5 -> 6 -> 9 -> 7 -> 10 -> 2 -> 1
-f = 632
-
-Começando na cidade 6:
-
-Escolha o estado cidade natal:
-Assim a melhor rota saindo da cidade 6 e:
-6 -> 3 -> 2 -> 1 -> 4 -> 8 -> 5 -> 10 -> 7 -> 9 -> 6
-f = 605
-
-Escolha o estado cidade natal:
-Assim a melhor rota saindo da cidade 6 e:
-6 -> 9 -> 5 -> 8 -> 4 -> 1 -> 2 -> 7 -> 10 -> 3 -> 6
-f = 583
-
-Escolha o estado cidade natal:
-Assim a melhor rota saindo da cidade 6 e:
-6 -> 5 -> 8 -> 4 -> 3 -> 2 -> 1 -> 10 -> 7 -> 9 -> 6
-f = 638
-
-Escolha o estado cidade natal:
-Assim a melhor rota saindo da cidade 6 e:
-6 -> 1 -> 8 -> 4 -> 3 -> 5 -> 10 -> 2 -> 7 -> 9 -> 6
-f = 601
+1 -> 8 -> 4 -> 5 -> 9 -> 7 -> 6 -> 10 -> 2 -> 3 -> 1
+f = 651
 
 Começando na cidade 3:
 
-Escolha o estado cidade natal:
-Assim a melhor rota saindo da cidade 3 e:
-3 -> 2 -> 7 -> 9 -> 5 -> 6 -> 10 -> 1 -> 8 -> 4 -> 3
-f = 633
+-------------Começando na cidade 3, caso 1:------------------
 
 Escolha o estado cidade natal:
+3
+Primeira solucao aleatoria:
+3 -> 5 -> 8 -> 4 -> 1 -> 2 -> 10 -> 6 -> 7 -> 9 -> 3
+f = 538
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
 Assim a melhor rota saindo da cidade 3 e:
-3 -> 4 -> 5 -> 8 -> 1 -> 2 -> 7 -> 10 -> 6 -> 9 -> 3
-f = 680
+3 -> 5 -> 8 -> 4 -> 1 -> 2 -> 10 -> 6 -> 7 -> 9 -> 3
+f = 538
+
+-------------Começando na cidade 3, caso 2:------------------
 
 Escolha o estado cidade natal:
+3
+Primeira solucao aleatoria:
+3 -> 9 -> 7 -> 2 -> 1 -> 4 -> 8 -> 5 -> 6 -> 10 -> 3
+f = 666
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
+3 -> 10 -> 7 -> 2 -> 1 -> 4 -> 8 -> 5 -> 6 -> 9 -> 3
+f = 555
+------------Melhorar 1------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+3 -> 10 -> 7 -> 2 -> 1 -> 4 -> 8 -> 5 -> 9 -> 6 -> 3
+f = 583
+------------Premutacao 8------------
+3 -> 9 -> 7 -> 2 -> 1 -> 4 -> 8 -> 5 -> 6 -> 10 -> 3
+f = 666
 Assim a melhor rota saindo da cidade 3 e:
-3 -> 5 -> 8 -> 4 -> 1 -> 2 -> 10 -> 7 -> 9 -> 6 -> 3
-f = 579
+3 -> 10 -> 7 -> 2 -> 1 -> 4 -> 8 -> 5 -> 6 -> 9 -> 3
+f = 555
+
+-------------Começando na cidade 3, caso 3:------------------
 
 Escolha o estado cidade natal:
+3
+Primeira solucao aleatoria:
+3 -> 8 -> 4 -> 1 -> 6 -> 9 -> 7 -> 2 -> 10 -> 5 -> 3
+f = 598
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
 Assim a melhor rota saindo da cidade 3 e:
-3 -> 10 -> 6 -> 7 -> 9 -> 5 -> 4 -> 8 -> 1 -> 2 -> 3
-f = 624
+3 -> 8 -> 4 -> 1 -> 6 -> 9 -> 7 -> 2 -> 10 -> 5 -> 3
+f = 598
+
+Começando na cidade 3:
+
+-------------Começando na cidade 7, caso 1:------------------
+
+Escolha o estado cidade natal:
+7
+Primeira solucao aleatoria:
+7 -> 10 -> 3 -> 2 -> 1 -> 8 -> 4 -> 5 -> 6 -> 9 -> 7
+f = 582
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+7 -> 10 -> 3 -> 2 -> 1 -> 8 -> 4 -> 5 -> 9 -> 6 -> 7
+f = 610
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
+7 -> 9 -> 3 -> 2 -> 1 -> 8 -> 4 -> 5 -> 6 -> 10 -> 7
+f = 693
+Assim a melhor rota saindo da cidade 7 e:
+7 -> 10 -> 3 -> 2 -> 1 -> 8 -> 4 -> 5 -> 6 -> 9 -> 7
+f = 582
+
+-------------Começando na cidade 7, caso 2:------------------
+
+Escolha o estado cidade natal:
+7
+Primeira solucao aleatoria:
+7 -> 10 -> 2 -> 1 -> 4 -> 3 -> 8 -> 5 -> 9 -> 6 -> 7
+f = 619
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+7 -> 10 -> 2 -> 1 -> 4 -> 3 -> 8 -> 5 -> 6 -> 9 -> 7
+f = 591
+------------Premutacao 7------------
+------------Premutacao 8------------
+------------Melhorar 1------------
+------------Premutacao 1------------
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+7 -> 10 -> 2 -> 1 -> 4 -> 3 -> 8 -> 5 -> 9 -> 6 -> 7
+f = 619
+------------Premutacao 7------------
+------------Premutacao 8------------
+Assim a melhor rota saindo da cidade 7 e:
+7 -> 10 -> 2 -> 1 -> 4 -> 3 -> 8 -> 5 -> 6 -> 9 -> 7
+f = 591
+
+-------------Começando na cidade 7, caso 3:------------------
+
+Escolha o estado cidade natal:
+7
+Primeira solucao aleatoria:
+7 -> 6 -> 9 -> 3 -> 4 -> 1 -> 8 -> 5 -> 10 -> 2 -> 7
+f = 735
+
+------------Melhorar 0------------
+------------Premutacao 1------------
+7 -> 9 -> 6 -> 3 -> 4 -> 1 -> 8 -> 5 -> 10 -> 2 -> 7
+f = 704
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
+------------Melhorar 1------------
+------------Premutacao 1------------
+7 -> 6 -> 9 -> 3 -> 4 -> 1 -> 8 -> 5 -> 10 -> 2 -> 7
+f = 735
+------------Premutacao 2------------
+------------Premutacao 3------------
+------------Premutacao 4------------
+------------Premutacao 5------------
+------------Premutacao 6------------
+------------Premutacao 7------------
+------------Premutacao 8------------
+Assim a melhor rota saindo da cidade 7 e:
+7 -> 9 -> 6 -> 3 -> 4 -> 1 -> 8 -> 5 -> 10 -> 2 -> 7
+f = 704

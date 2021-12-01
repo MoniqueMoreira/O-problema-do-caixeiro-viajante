@@ -81,8 +81,8 @@ Lista* PrimeiraSolucao(TGrafo * g,Lista *front, Lista * vizitados, int i )
         if(k==1 && vizitados->tam ==10 && a==0)
         {
             vizitados->f = f;
-            //imprimir_lista(vizitados);
-            //printf("\n");
+            imprimir_lista(vizitados);
+            printf("\n");
             return vizitados;
         }
         //printf("\n");
@@ -175,55 +175,55 @@ int Conectados(TGrafo * g, Lista * test)
     return 1;
 }
 
-Lista * permuta(TGrafo *g, int i,Lista * ini, Lista * melhor)
+Lista * permuta(TGrafo *g, int i,Lista * ini, int fmenor, int q)
 {
+    printf("------------Melhorar %d------------\n",q);
+    //printf("%d\n%d\n",fmenor,q);
     srand( (unsigned)time(NULL) );
-    int x,x2,fmenor = 9999;
+    int x,x2;
     Lista * visitados = inicializa_lista();
     Lista * visitados2 = inicializa_lista();
-    for (int s = 1; s < 9; s++)
+    x = Aleatorio(visitados,i,0);
+    inserirFim(visitados2, x);
+    Lista * melhor = inicializa_lista();
+    copy(ini,melhor);
+    for (int k = 1; k < 9; k++)
     {
-        //printf("-------------S = %d-------------\n",s);
-        x = Aleatorio(visitados,i,0);
-        inserirFim(visitados2, x);
+        printf("------------Premutacao %d------------\n",k);
         
-        for (int k = 1; k < 9; k++)
+        Lista * test = inicializa_lista();
+        copy(ini,test);
+        //imprimir_lista(test);
+
+        x2 = Aleatorio(visitados,i,x);
+        inserirFim(visitados,x2);
+
+        //printf("x = %d, x2 = %d\n",x,x2);
+        troca(test,x,x2);
+
+        int h = Conectados(g,test);
+        //printf("H = %d ",h);
+        if ( h == 0)
         {
-            //printf("\nk = %d\n",k);
-            
-            Lista * test = inicializa_lista();
-            copy(ini,test);
-            //imprimir_lista(test);
-
-            x2 = Aleatorio(visitados,i,x);
-            inserirFim(visitados,x2);
-
-            //printf("x = %d, x2 = %d\n",x,x2);
-            troca(test,x,x2);
-
-            int h = Conectados(g,test);
-            //printf("H = %d ",h);
-            if ( h == 0)
-            {
-                //printf("Nó não conectado");
-            }
-            else
-            {
-                //imprimir_lista(test);
-                //printf("\n");
-                //printf("%d < %d",test->f,fmenor);
-                if(test->f < fmenor)
-                {
-                    fmenor = test->f;
-                    melhor = inicializa_lista();
-                    copy(test,melhor);
-                }
-            }
-            //printf("\n");
+            //printf("Nó não conectado");
         }
-        visitados = inicializa_lista();
+        else
+        {
+            imprimir_lista(test);
+            //printf("\n");
+            //printf("%d < %d",test->f,fmenor);
+            if(test->f < melhor->f)
+            {
+                melhor = inicializa_lista();
+                copy(test,melhor);
+            }
+        }
     }
-    return melhor;
+    if(fmenor == melhor->f)
+    {
+        return ini;
+    }
+    permuta(g,i,melhor,melhor->f, q+1);
 }
 
 int main()
@@ -236,20 +236,13 @@ int main()
     //imprime(g);
     Lista * front = inicializa_lista();
     Lista * visitados = inicializa_lista();
+    printf("Primeira solucao aleatoria:\n");
     visitados = PrimeiraSolucao(g,front,visitados,i);
-    //imprimir_lista(ini);
+
     Lista * melhor = inicializa_lista();
-    melhor = permuta(g,i,visitados, melhor);
-    if(melhor->f < visitados->f)
-    {
-        printf("Assim a melhor rota saindo da cidade %d e:\n",i);
-        imprimir_lista(melhor);
-    }
-    else
-    {
-        printf("Assim a melhor rota saindo da cidade %d e:\n",i);
-        imprimir_lista(visitados);
-    }
+    melhor = permuta(g,i,visitados,visitados->f,0);
     
+    printf("Assim a melhor rota saindo da cidade %d e:\n",i);
+    imprimir_lista(melhor);
     return 0;
 }

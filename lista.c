@@ -26,6 +26,21 @@ void imprimir_lista(Lista *lista) {
     //printf("\n");
 }
 
+int comparar(Lista * lista, Lista * lista2 )
+{
+    No *inicio = lista->inicio;
+    No *inicio2 = lista2->inicio;
+    while(inicio != NULL) {
+        if(inicio2->valor != inicio->valor)
+        {
+            return 0;
+        }
+        inicio2 = inicio2->proximo;
+        inicio = inicio->proximo;
+    }
+    return 1;
+}
+
 // inserir no final da lista
 void inserirFim(Lista *lista, int valor) {
     No *novo = (No*)malloc(sizeof(No)); // cria um novo nó
