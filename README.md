@@ -10,6 +10,6 @@ O operador considerado para gerar os filhos do estado corrente é permutar as ci
 
 ## O algoritmo busca resolver o problema dos problema do caixeiro viajante, por meio da implementação de *** Hill-Climbing ***.
 
-### Onde o algoritmo escolhe uma solução qualquer, depois ele vai pega uma da posiçoes e permutar 8 vezes, e verificar se existe solução e quanto e seu custo, pois isto ele selecionar a que tem menor custo é roda mais uma vezes para verificar se tem permutação com menor custo.
+### Onde o algoritmo escolhe uma solução qualquer, depois ele vai pega uma da posições e permutar 8 vezes, e verificar se existe solução e quanto e seu custo,depois ele selecionar a que tem menor custo é roda mais uma vezes para verificar se tem permutação com menor custo. Se não existir solução melhor, independendo de se e um minimo local ou um global ele considera aquela a melhor solução.
 
 ## No arquivo ***Out.txt*** podemos ver o alguns teste da resolução do problema.
